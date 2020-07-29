@@ -1,0 +1,42 @@
+.movie {
+  width: 550px;
+  height: 200px;
+  margin: 15px 15px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 5px 5px 15px gray;
+  color: black;
+}
+.movie > img {
+  width: 120px;
+  margin-right: 30px;
+  margin-left: 20px;
+  margin-top: -10px;
+  display: inline-block;
+}
+.movie__data {
+  width: 350px;
+  margin-top: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.movie__title {
+  margin-bottom: 5px;
+}
+.movie__year {
+  color: gray;
+  margin-bottom: 5px;
+}
+.movie__genres {
+  display: flex;
+  padding: 0;
+  margin-bottom: 5px;
+  color: gray;
+}
+.movie__genre {
+  margin-right: 10px;
+}
+.movie__summary {
+  color: gray;
+}
