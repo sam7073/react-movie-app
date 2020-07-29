@@ -1,0 +1,21 @@
+.article {
+  width: 1200px;
+  margin: 0 auto;
+}
+.article > img {
+  width: 300px;
+  display: inline-block;
+}
+.article__movieInfo {
+  width: 870px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+}
+.article__movieInfo > div {
+  margin-top: 30px;
+}
+.article__movieInfo > ul > li {
+  display: inline-block;
+  margin-right: 10px;
+}
