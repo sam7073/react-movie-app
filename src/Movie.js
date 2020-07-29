@@ -4,7 +4,7 @@ import "./Movie.css";
 
 function Movie({ year, title, summary, poster, genres }) {
   return (
-    <a className="movie" href="">
+    <a className="movie" href="https://sam7073.github.io/react-movie-app/">
       <img src={poster} alt={title} title={title} />
       <div className="movie__data">
         <h3 className="movie__title">{title}</h3>
@@ -16,7 +16,7 @@ function Movie({ year, title, summary, poster, genres }) {
             </li>
           ))}
         </ul>
-        <p className="movie__summary">{summary.slice(0, 120)}...</p>
+        <p className="movie__summary">{summary.slice(0, 100)}...</p>
       </div>
     </a>
   );
